@@ -1,0 +1,195 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Ashley Dulany",
+      "location": "Matoupu",
+      "priceRange": "₹55000-₹88000",
+      "avatar": "https://robohash.org/facilisnemoex.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Singer", "Musician"],
+      "language": ["English", "French"]
+    },
+    {
+      "id": 2,
+      "name": "Amandi Ander",
+      "location": "Tatarsk",
+      "priceRange": "₹6510-₹9300",
+      "avatar": "https://robohash.org/asperioresestut.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Musician"],
+      "language": ["Spanish", "Other"]
+    },
+    {
+      "id": 3,
+      "name": "Franny Trevaskis",
+      "location": "Pingling",
+      "priceRange": "₹44000-₹77000",
+      "avatar": "https://robohash.org/assumendaquiaaut.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Musician"],
+      "language": ["Mandarin", "English"]
+    },
+    {
+      "id": 4,
+      "name": "Helen-elizabeth Hansbury",
+      "location": "Kilmacanoge",
+      "priceRange": "₹270000-₹450000",
+      "avatar": "https://robohash.org/iustominusfacilis.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Singer", "Dancer"],
+      "language": ["German", "English"]
+    },
+    {
+      "id": 5,
+      "name": "Ellie Venner",
+      "location": "Flórina",
+      "priceRange": "₹360000-₹540000",
+      "avatar": "https://robohash.org/voluptatesvelnecessitatibus.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Singer"],
+      "language": ["Italian", "Spanish"]
+    },
+    {
+      "id": 6,
+      "name": "Jo ann McCartney",
+      "location": "Paitan Norte",
+      "priceRange": "₹7000-₹12600",
+      "avatar": "https://robohash.org/aliasquodeligendi.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Actor"],
+      "language": ["English", "Hindi"]
+    },
+    {
+      "id": 7,
+      "name": "Holden Humbie",
+      "location": "Ronov nad Doubravou",
+      "priceRange": "₹15750-₹26250",
+      "avatar": "https://robohash.org/doloribusnecessitatibusquia.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Singer"],
+      "language": ["French", "Other"]
+    },
+    {
+      "id": 8,
+      "name": "Roger Elks",
+      "location": "Balice",
+      "priceRange": "₹60000-₹100000",
+      "avatar": "https://robohash.org/possimuspariatursoluta.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Actor", "Musician"],
+      "language": ["English", "Spanish"]
+    },
+    {
+      "id": 9,
+      "name": "Jermaine Bellamy",
+      "location": "Carmen de Viboral",
+      "priceRange": "₹6300-₹10500",
+      "avatar": "https://robohash.org/velitvoluptasamet.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Dancer"],
+      "language": ["Spanish", "Italian"]
+    },
+    {
+      "id": 10,
+      "name": "Merline Picker",
+      "location": "Vukojevci",
+      "priceRange": "₹42000-₹78000",
+      "avatar": "https://robohash.org/porromollitiarepellat.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Musician"],
+      "language": ["English", "Mandarin"]
+    },
+    {
+      "id": 11,
+      "name": "Ardra Taillant",
+      "location": "Ngama",
+      "priceRange": "₹285000-₹475000",
+      "avatar": "https://robohash.org/magnivelea.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Actor"],
+      "language": ["Hindi", "English"]
+    },
+    {
+      "id": 12,
+      "name": "Davide Vivyan",
+      "location": "Lasi Dua",
+      "priceRange": "₹10000-₹20000",
+      "avatar": "https://robohash.org/quasidistinctiosit.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Dancer"],
+      "language": ["French", "German"]
+    },
+    {
+      "id": 13,
+      "name": "Ferrell Georgi",
+      "location": "Saint-Quentin-en-Yvelines",
+      "priceRange": "₹315000-₹495000",
+      "avatar": "https://robohash.org/magnamdoloremiusto.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Dancer"],
+      "language": ["Italian", "English"]
+    },
+    {
+      "id": 14,
+      "name": "Murdock Creak",
+      "location": "Vagos",
+      "priceRange": "₹360000-₹630000",
+      "avatar": "https://robohash.org/ipsamolestiaset.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Musician", "Dancer"],
+      "language": ["Spanish", "Hindi"]
+    },
+    {
+      "id": 15,
+      "name": "Camila Wringe",
+      "location": "Gävle",
+      "priceRange": "₹24000-₹48000",
+      "avatar": "https://robohash.org/necessitatibusetdolorem.png?size=50x50&set=set1",
+      "bio": "",
+      "category": ["Dancer"],
+      "language": ["English", "Other"]
+    },
+    {
+      "id": "5223",
+      "name": "Vini",
+      "location": "India",
+      "priceRange": "₹15000-₹25000",
+      "avatar": {},
+      "bio": "i am vini from india",
+      "category": ["Musician"],
+      "language": ["French"]
+    },
+    {
+      "id": "2095",
+      "name": "Vini",
+      "location": "India",
+      "priceRange": "₹15000-₹25000",
+      "avatar": {},
+      "bio": "i am vini from india",
+      "category": ["Musician"],
+      "language": ["French"]
+    },
+    {
+      "id": "49a0",
+      "name": "saer",
+      "location": "Brazil",
+      "priceRange": "₹15000-₹25000",
+      "avatar": {},
+      "bio": "Hi i am the great brazilian dancer.",
+      "category": ["Dancer"],
+      "language": ["English", "Other"]
+    },
+    {
+      "id": "83e7",
+      "name": "saer",
+      "location": "Brazil",
+      "priceRange": "₹5000-₹10000",
+      "avatar": {},
+      "bio": "lkdlk fjsakjf ithe braziilianfd",
+      "category": ["Guitarist"],
+      "language": ["English"]
+    }
+  ],
+  "submissions": []
+}
