@@ -10,7 +10,7 @@ export default function ArtistList({ searchParams }) {
 
   useEffect(() => {
     async function fetchArtistToDisplay() {
-      const artistRes = await fetch("http://localhost:3001/artists");
+      const artistRes = await fetch("api/artists");
       let artistData = await artistRes.json();
       //Filtering for the category
       if (category !== "all") {

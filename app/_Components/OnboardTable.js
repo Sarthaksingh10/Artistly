@@ -7,7 +7,7 @@ export default function OnboardTable() {
   useEffect(() => {
     async function fetchArtists() {
       try {
-        const res = await fetch("http://localhost:3001/submissions");
+        const res = await fetch("api/submissions");
         const data = await res.json();
         setSubmissions(data);
       } catch (error) {
@@ -19,7 +19,7 @@ export default function OnboardTable() {
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:3001/submissions/${id}`, {
+      const res = await fetch(`api/submissions/${id}`, {
         method: "DELETE",
       });
       if (res.ok) {
@@ -34,16 +34,14 @@ export default function OnboardTable() {
 
   const handleApprove = async (artist) => {
     try {
-      const checkRes = await fetch(
-        `http://localhost:3001/artists?id=${artist.id}`
-      );
+      const checkRes = await fetch(`api/artists?id=${artist.id}`);
       const existing = await checkRes.json();
       if (existing.length > 0) {
         alert("Artist already approved!");
         return;
       }
 
-      const addRes = await fetch("http://localhost:3001/artists", {
+      const addRes = await fetch("api/artists", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -52,7 +50,7 @@ export default function OnboardTable() {
       });
 
       if (addRes.ok) {
-        await fetch(`http://localhost:3001/submissions/${artist.id}`, {
+        await fetch(`api/submissions/${artist.id}`, {
           method: "DELETE",
         });
 

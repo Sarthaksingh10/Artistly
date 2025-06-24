@@ -39,7 +39,7 @@ export default function OnboardForm() {
   /* Handling submit if successfully created navigation back to home page */
   const onsubmit = async (data) => {
     try {
-      const res = await fetch("http://localhost:3001/submissions", {
+      const res = await fetch("/api/submissions", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
