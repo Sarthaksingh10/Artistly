@@ -17,53 +17,6 @@ export default function OnboardTable() {
     fetchArtists();
   }, []);
 
-  const handleDelete = async (id) => {
-    try {
-      const res = await fetch(`/api/submissions/${id}`, {
-        method: "DELETE",
-      });
-      if (res.ok) {
-        setSubmissions((prev) => prev.filter((artist) => artist.id !== id));
-      } else {
-        alert("Failed to delete artist");
-      }
-    } catch (error) {
-      console.error("Error deleting artist:", error);
-    }
-  };
-
-  const handleApprove = async (artist) => {
-    try {
-      const checkRes = await fetch(`/api/artists?id=${artist.id}`);
-      const existing = await checkRes.json();
-      if (existing.length > 0) {
-        alert("Artist already approved!");
-        return;
-      }
-
-      const addRes = await fetch("/api/artists", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(artist),
-      });
-
-      if (addRes.ok) {
-        await fetch(`/api/submissions/${artist.id}`, {
-          method: "DELETE",
-        });
-
-        setSubmissions((prev) =>
-          prev.filter((submission) => submission.id !== artist.id)
-        );
-      } else {
-        alert("Approval failed");
-      }
-    } catch (error) {
-      console.error("Error approving artist:", error);
-    }
-  };
   return (
     <div className="overflow-x-auto w-full">
       <table className="min-w-full text-sm text-left text-white bg-zinc-900 border border-zinc-700 rounded-lg">
@@ -95,16 +48,10 @@ export default function OnboardTable() {
                   >
                     View
                   </button>
-                  <button
-                    onClick={() => handleApprove(artist)}
-                    className="text-blue-400 hover:underline mr-4"
-                  >
+                  <button className="text-blue-400 hover:underline mr-4">
                     Approve
                   </button>
-                  <button
-                    onClick={() => handleDelete(artist.id)}
-                    className="text-red-400 hover:underline"
-                  >
+                  <button className="text-red-400 hover:underline">
                     Delete
                   </button>
                 </td>

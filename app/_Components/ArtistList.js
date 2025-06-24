@@ -57,7 +57,7 @@ export default function ArtistList() {
 
   return (
     /* Mapping all the artist creating a grid layout */
-    <div className="grid grid-cols-2 gap-[10px] m-4 md:flex md:flex-wrap md:justify-between ">
+    <div className="flex flex-wrap gap-[10px] m-4  justify-center md:justify-between ">
       {artists.map((artist) => (
         <ArtistCard key={artist.id} artist={artist} />
       ))}

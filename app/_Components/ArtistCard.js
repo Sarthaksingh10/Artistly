@@ -3,7 +3,7 @@ import Button from "./Button";
 /* A reusable card to map artist dynamically */
 export default function ArtistCard({ artist }) {
   return (
-    <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 p-[3px] rounded-xl shadow-xl transition hover:shadow-2xl w-[260px] h-[480px] md:w-[300px] ">
+    <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 p-[3px] rounded-xl shadow-xl transition hover:shadow-2xl w-[300px] h-[480px] md:w-[320px] ">
       <div className="bg-zinc-900 text-white rounded-lg p-6 flex flex-col items-center text-center h-full gap-[15px]">
         {/* Image Container */}
         <div className="w-[230px] h-[250px] rounded-xl overflow-hidden border-4 border-zinc-800 shadow-md mb-4">
