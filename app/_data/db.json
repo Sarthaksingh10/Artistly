@@ -149,46 +149,6 @@
       "bio": "",
       "category": ["Dancer"],
       "language": ["English", "Other"]
-    },
-    {
-      "id": "5223",
-      "name": "Vini",
-      "location": "India",
-      "priceRange": "₹15000-₹25000",
-      "avatar": {},
-      "bio": "i am vini from india",
-      "category": ["Musician"],
-      "language": ["French"]
-    },
-    {
-      "id": "2095",
-      "name": "Vini",
-      "location": "India",
-      "priceRange": "₹15000-₹25000",
-      "avatar": {},
-      "bio": "i am vini from india",
-      "category": ["Musician"],
-      "language": ["French"]
-    },
-    {
-      "id": "49a0",
-      "name": "saer",
-      "location": "Brazil",
-      "priceRange": "₹15000-₹25000",
-      "avatar": {},
-      "bio": "Hi i am the great brazilian dancer.",
-      "category": ["Dancer"],
-      "language": ["English", "Other"]
-    },
-    {
-      "id": "83e7",
-      "name": "saer",
-      "location": "Brazil",
-      "priceRange": "₹5000-₹10000",
-      "avatar": {},
-      "bio": "lkdlk fjsakjf ithe braziilianfd",
-      "category": ["Guitarist"],
-      "language": ["English"]
     }
   ],
   "submissions": []
