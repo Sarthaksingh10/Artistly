@@ -6,7 +6,7 @@ export const metadata = {
   description: "All the popular artist from different countries",
 };
 
-export default function Artists() {
+export default function Artists({ searchParams }) {
   return (
     <>
       <div className=" flex flex-col">
@@ -14,7 +14,7 @@ export default function Artists() {
         <Filter />
         {/* Loading artistlist with a fallback */}
         <Suspense fallback={<h1>Loading Artists....</h1>}>
-          <ArtistList />
+          <ArtistList searchParams={searchParams} />
         </Suspense>
       </div>
     </>
