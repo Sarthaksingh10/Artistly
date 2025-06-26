@@ -1,7 +1,7 @@
 import ArtistCard from "./ArtistCard";
 
 async function fetchArtists() {
-  const res = await fetch("http://localhost:3000/api/artists/", {
+  const res = await fetch("https://artistly-pi-lemon.vercel.app/api/artists/", {
     cache: "no-store",
   });
 
